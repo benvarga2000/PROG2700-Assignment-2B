@@ -1,5 +1,5 @@
 // Step 1: Display a Map using Leaflet.js
-var map = L.map('theMap').setView([44.6488, -63.5752], 12); // Halifax coordinates
+var map = L.map('theMap').setView([44.650627, -63.597140], 14); // Halifax coordinates
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
 // Step 2: Fetch Real-time Transit Data
